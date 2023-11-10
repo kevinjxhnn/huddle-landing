@@ -209,9 +209,9 @@
   background: #fff;
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.07);
   grid-template-areas:
-    ". flowing-convo-img-container"
-    "feature-content2 flowing-convo-img-container"
-    ". flowing-convo-img-container";
+    "flowing-convo-img-container ."
+    "flowing-convo-img-container feature-content2"
+    "flowing-convo-img-container .";
 }
 
 .feature-content-2 {
@@ -288,7 +288,7 @@
 .users-img-container {
   padding: 1rem;
   grid-area: users-img-container;
-  background: url("./images/flow-convo.png");
+  background: url("./images/users.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -470,7 +470,7 @@
   }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 700px) {
   .main-container {
     height: 290.4375rem;
   }
