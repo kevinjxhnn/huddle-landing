@@ -457,6 +457,10 @@
   cursor: pointer;
 }
 
+.social-list a:hover img {
+  background: #FF52C1;
+}
+
 .call-div {
   margin-top: 0.5rem;
 }
