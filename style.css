@@ -13,6 +13,32 @@
   position: relative;
 }
 
+.location-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.call-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.gmail-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.location-div p {
+  max-width: 25rem;
+}
+
+.location-div p, .call-div p, .gmail-div p {
+  margin-left: 1rem;
+}
+
 .hero-container {
   background: url("./images/hero-bg.png");
   height: 120rem;
@@ -344,7 +370,7 @@
   position: relative;
   color: white;
   display: grid;
-  height: 20rem;
+  height: 19rem;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 0.8fr;
   grid-template-areas:
