@@ -35,7 +35,9 @@
   max-width: 25rem;
 }
 
-.location-div p, .call-div p, .gmail-div p {
+.location-div p,
+.call-div p,
+.gmail-div p {
   margin-left: 1rem;
 }
 
@@ -457,8 +459,8 @@
   cursor: pointer;
 }
 
-.social-list a:hover img {
-  background: #FF52C1;
+.social-list img:hover {
+  transform: scale(1.3);
 }
 
 .call-div {
@@ -670,7 +672,6 @@
     margin-top: 1rem;
   }
 
-
   .copyright {
     text-align: center;
     color: #fff;
@@ -702,7 +703,6 @@
 
   .hero-content-grid {
     padding: 4.4rem 3rem 0rem 3rem;
-    
   }
 }
 
