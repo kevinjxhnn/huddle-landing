@@ -162,8 +162,8 @@
   font-weight: 400;
   line-height: normal;
   position: absolute;
-  right: 4rem;
-  bottom: 3rem;
+  right: 0rem;
+  bottom: 0rem;
 }
 
 .btn:hover {
@@ -456,15 +456,16 @@
 
 .social-list li {
   list-style: none;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
 
 .social-list a {
   cursor: pointer;
 }
 
-.social-list img:hover {
-  transform: scale(1.3);
+
+.social-list svg:hover path{
+  fill:#ff52c1;
 }
 
 .call-div {
@@ -482,8 +483,23 @@
   right: 2rem;
 }
 
-@media (max-width: 835px) {
+
+
+@media (max-width: 1024px) {
+  .copyright {
+    right: 1rem;
+    bottom: 1rem;
+  }
+}
+
+@media (max-width: 910px) {
+
+  .footer-bg {
+    padding-left: 2rem;
+  }
+
   .footer-container {
+    margin-top: 2rem;
     grid-template-columns: 1fr 2fr 0.5fr;
   }
 
@@ -494,20 +510,11 @@
   }
 
   .social-list li {
-    margin-left: 2px;
+    margin-left: 0.8rem;
   }
-}
 
-@media (max-width: 1024px) {
-  .copyright {
-    right: 1rem;
-    bottom: 1rem;
-  }
-}
-
-@media (max-width: 900px) {
-  .feature-container {
-    padding: 5rem 2rem 5rem 2rem;
+  .copright {
+    right: 0rem;
   }
 }
 
@@ -529,7 +536,7 @@
     overflow-x: hidden;
   }
   .main-container {
-    height: 285.4375rem;
+    height: 265rem;
   }
 
   .copright {
