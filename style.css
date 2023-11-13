@@ -505,6 +505,13 @@
   }
 }
 
+@media (max-width: 900px) {
+  .feature-container {
+    padding: 5rem 2rem 5rem 2rem;
+  }
+}
+
+
 @media (max-width: 760px) {
   .feature-container p {
     font-size: 0.8rem;
@@ -561,7 +568,7 @@
   }
 
   .feature-container {
-    height: 150rem;
+    height: 138rem;
     padding: 3rem 1rem 3rem 1rem;
   }
 
