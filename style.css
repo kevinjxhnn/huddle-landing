@@ -463,9 +463,8 @@
   cursor: pointer;
 }
 
-
-.social-list svg:hover path{
-  fill:#ff52c1;
+.social-list svg:hover path {
+  fill: #ff52c1;
 }
 
 .call-div {
@@ -483,8 +482,6 @@
   right: 2rem;
 }
 
-
-
 @media (max-width: 1024px) {
   .copyright {
     right: 1rem;
@@ -493,7 +490,6 @@
 }
 
 @media (max-width: 910px) {
-
   .footer-bg {
     padding-left: 2rem;
   }
@@ -517,7 +513,6 @@
     right: 0rem;
   }
 }
-
 
 @media (max-width: 760px) {
   .feature-container p {
